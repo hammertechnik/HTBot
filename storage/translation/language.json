@@ -1,0 +1,847 @@
+﻿{
+    "english":{
+        "credits": {
+            "name": "Credits:",
+            "dev": "Developer:",
+            "help": "Helping Hands:",
+            "translate": "Translator:",
+            "creator": "made by: Hammer1279"
+        },
+        "stats": {
+            "h": "hours",
+            "min": "minutes and",
+            "sec": "seconds",
+            "creator": "made by: Hammer1279",
+            "Us": "Users:",
+            "S": "Servers:",
+            "C": "Channels:",
+            "P": "Ping:",
+            "L": "Libary:",
+            "U": "Uptime:"
+        },
+        "welcome": {
+            "message": ["Hey", ", welcome!"]
+        },
+        "bye": {
+            "message": ["The Member", "just left us!"]
+        },
+        "help": {
+            "err": {
+                "mod": "moderator? No!",
+                "admin": "doesnt look like you have admin perms..."
+            },
+        "main": {
+            "rb": "Requested by:",
+            "page": "All available Categories:",
+            "howpage": "How to access Categories:",
+            "howtopage": "Syntax:",
+            "command": "Commands:",
+            "creator": "made by: Hammer1279"
+        },
+        "moderator": {
+            "purge": "delete messages",
+            "tempmute": "mutes a member for a set ammount of time",
+            "mute": "permmutes a member",
+            "unmute": "unmutes a member",
+            "kick":"kicks a member from the server",
+            "ban": "banns a member from the server"
+        },
+        "info": {
+            "help": "opens the help window",
+            "credits": "show who made Nova",
+            "version": "shows the current version and changelog",
+            "rank": "shows the rank of you or someone else",
+            "stats": "bot statistics",
+            "ping": "lets you know if the bot is alive",
+            "pong": "get the latency of the Bot",
+            "botinfo": "shows infos about the bot",
+            "serverinfo": "get infos about the server"
+        },
+        "utility": {
+            "prefix": "change Nova's Prefix",
+            "rankcolor": "changes the color of the Rankcard",
+            "bug": "reports a Bug to the Dev's",
+            "lang": "changes Nova's Language",
+            "muterole": "sets a muterole",
+            "setsuggest": "sets the channel for suggestions",
+            "setwelcome": "sets the channel where Nova greets new members",
+            "spacer": "when u want to organize a channel",
+            "suggest": "give the Dev's a suggestion about Nova",
+            "news": "sets bot news channel"
+                },
+        "misc": {
+            "dm": "sends a direct message to a member.",
+            "invite": "Sends the link to get Nova also to your Server",
+            "say": "Let the Bot speak"
+        },
+        "fun": {
+            "meme": "sends some dank memes"
+        },
+        "music": {
+            "join": "Joins comander's voice channel",
+            "leave": "Leaves commander's voice channel",
+            "play": "Plays YouTube video given as argument",
+            "queue": "Shows song queue for this server",
+            "skip": "Skips actually playing song",
+            "pause": "Pauses playing music",
+            "resume": "Resumes paused music on this server"
+        }
+        },
+        "suggest": {
+            "e1": "you forgot ur suggestion along the way!",
+            "e2": "your syntax is wrong! Use it like this:",
+            "mb": "made by Hammer1279",
+            "sb": "Suggestion by:",
+            "server" : "Server:",
+            "question": "Do you really want to send this?",
+            "yes": ["y", "yes", "yep"],
+            "no": ["n","no","cancel", "nope"],
+            "send": "Suggestion sent!",
+            "cancel": "Cancelled!",
+            "again": "You have to answer with either yes or no, please try again!"
+        },
+        "bug": {
+            "e1": "You need to add the Bug you want to report!",
+            "e2": "your syntax is wrong! Use it like this:",
+            "rb": "Reported by:",
+            "server": "Server:",
+            "send": "your Bug has been Reported to the Devs, for further questions contact them here: **hammertechnik@gmail.com**"
+        },
+        "set": {
+            "welcome": {
+                "e1": "Dude, ur not a admin!",
+                "e2": "Dude, you forgot the welcome channel to set!",
+                "e3": "this is not a valid channel!",
+                "m1": "Welcomechannel Set!",
+                "m2": "Set to"
+            },
+            "suggest": {
+                "e1": "Dude, ur not a admin!",
+                "e2": "Dude, you forgot the suggestion channel to set!",
+                "e3": "this is not a valid channel!",
+                "m1": "Suggestchannel Set!",
+                "m2": "Set to"
+            },
+            "mute": {
+                "e1": "Dude, ur not a admin!",
+                "e2": "Dude, you forgot the muterole to set!",
+                "e3": "this is not a valid role!",
+                "m1": "Muterole Set!",
+                "m2": "Set to",
+                "created": "Muterole Created!"
+            }
+        },
+        "music": {
+            "play": {
+                "undefined": "You forgot to tell me what song you want to hear!",
+                "add": "👍 Song added to queue!",
+                "channel": "You must be in the same channel as I'm, to use this command",
+                "nochannel": "You must be in a Voice Channel, to use this command!",
+                "finish": "Playback finished",
+                "play": "Playing",
+                "err": "Error: This video is unavailable."
+            },
+            "join": {
+                "join": "Succesfully joined the channel",
+                "already": "I'm already in Voice Channel!",
+                "full": "This Voice Channel is full!",
+                "nochannel": "You must be in a Voice Channel, to use this command!"
+            },
+            "leave": {
+                "left": "Succesfully left the channel",
+                "wrongchannel": "I'm not in this Voice Channel!",
+                "already": "I'm in no a Voice Channel, so I can't leave it!",
+                "nochannel": "You must be in a Voice Channel, to use this command!"
+            },
+            "pause": {
+                "toggle": "Playback Paused!",
+                "nochannel": "You must be in Voice Channel, to use this command!",
+                "nomusic": "There is no playing music to pause, on this server!",
+                "wrongchannel": "I'm not in this Voice Channel!"
+            },
+            "resume": {
+                "toggle": "Playback Resumed!",
+                "nochannel": "You must be in a Voice Channel, to use this command!",
+                "nomusic": "There is no paused music to resume, on this server!",
+                "wrongchannel": "I'm not in this Voice Channel!"
+            },
+            "queue": "Queue for this server:",
+            "skip": {
+                "wrongchannel": "You must be in the same voice channel as I'm, to use this command!",
+                "empty": "There is no song in queue to skip",
+                "nochannel": "You must be in a voice channel, to use this command!",
+                "nosong": "There is no song in queue to skip!",
+                "skip": "Skipped",
+                "by": "Skipped by"
+            }
+        }
+    },
+
+    "german":{
+        "credits": {
+            "name": "Ersteller:",
+            "dev": "Programmierer:",
+            "help": "Helfer:",
+            "translate": "Übersetzer:",
+            "creator": "erstellt von: Hammer1279"
+        },
+        "stats": {
+            "h": "Stunden",
+            "min": "Minuten und",
+            "sec": "Sekunden",
+            "creator": "erstellt von: Hammer1279",
+            "Us": "Nutzer:",
+            "S": "Server:",
+            "C": "Kanäle:",
+            "P": "Ping:",
+            "L": "Bibliothek:",
+            "U": "Onlinezeit:"
+        },
+        "welcome": {
+            "message": ["Hey", ", willkommen!"]
+        },
+        "bye": {
+            "message": ["Der User", "hat uns gerade verlassen!"]
+        },
+        "help": {
+            "err": {
+                "mod": "Moderator? Ehhm nein!",
+                "admin": "bistn Admin? Nee biste nich!"
+            },
+            "main": {
+                "rb": "Angefragt von:",
+                "page": "Alle Katergorien:",
+                "howpage": "Wie öffnet man die Katergorien?:",
+                "howtopage": "Syntax:",
+                "command": "Commands:",
+                "creator": "erstellt von: Hammer1279"
+            },
+            "moderator": {
+                "purge": "löscht Nachrichten",
+                "tempmute": "mutet einen User für eine spezifische Zeit",
+                "mute": "mutet einen User",
+                "unmute": "entmutet einen User",
+                "kick":"Kickt einen User vom Server",
+                "ban": "Bannt einen User vom Server"
+            },
+            "info": {
+                "help": "öffnet die Hilfe",
+                "credits": "Zeigt wer Nova Programmiert hat",
+                "version": "Zeigt Novas aktuelle Version an",
+                "rank": "zeigt deinen Rang oder von jemanden anderen",
+                "stats": "Bot Statistiken",
+                "ping": "zeigt ob Nova noch Lebt",
+                "pong": "Zeigt die Verzögerung",
+                "botinfo": "zeigt ein paar Infos über den Bot",
+                "serverinfo": "zeigt ein paar Infos über den Server"
+            },
+            "utility": {
+                "prefix": "ändert Novas Prefix",
+                "rankcolor": "ändert die Farbe von der Rang Karte",
+                "bug": "Meldet einen Bug",
+                "lang": "ändert Novas Sprache",
+                "muterole": "stellt einen Muterang ein",
+                "setsuggest": "stellt den Vörschlagskanal ein",
+                "setwelcome": "stellt den Kanal für neue User ein",
+                "spacer": "zum Organisieren von Kanälen",
+                "suggest": "sende einen Vorschlag an die Nova Dev's",
+                "news": "stellt den Bot Update Kanal ein"
+            },
+            "misc": {
+                "dm": "Sendet eine DM an einen User.",
+                "invite": "Sendet den Link um Nova auch zu deinem Server hinzuzufügen",
+                "say": "lasse Nova Reden"
+            },
+            "fun": {
+                "meme": "sendet paar coole Memes"
+            },
+            "music": {
+                "join": "Joint einem Sprachkanal",
+                "leave": "Verlässt den Sprachkanal",
+                "play": "Spielt Youtube Videos ab",
+                "queue": "Zeigt die Server Playlist an",
+                "skip": "Überspringt einen Song",
+                "pause": "Pausiert das Replay",
+                "resume": "Spielt Musik weiter ab"
+            }
+            },
+            "suggest": {
+                "e1": "du hast deinen Verschlag vergessen!",
+                "e2": "du nutzt den falschen Syntax! Nutz den Command so:",
+                "mb": "erstellt von Hammer1279",
+                "sb": "Vorschlag von:",
+                "server" : "Server:",
+                "question": "Möchtest du dies wirklich senden?",
+                "yes": ["j", "ja"],
+                "no": ["n","nein","abbrechen"],
+                "send": "Vorschlag gesendet!",
+                "cancel": "Abgebrochen!",
+                "again": "Du musst mit ja oder nein Antworten, Versuche es erneut!"
+            },
+            "bug": {
+                "e1": "Du hast den Bug vergessen!",
+                "e2": "dein Syntax ist falsch! Nutz den Command so:",
+                "rb": "Reported by:",
+                "server": "Server:",
+                "send": "dein Bug wurde den Devs gemeldet, für weitere Fragen kontaktiere sie hier: **hammertechnik@gmail.com**"
+            },
+            "set": {
+                "welcome": {
+                    "e1": "Dude, bist du nen Admin?!",
+                    "e2": "Dude, du hast den Willkommen Kanal vergessen!",
+                    "e3": "das ist kein Channel!",
+                    "m1": "Willkommenkanal gesetzt!",
+                    "m2": "Eingestellt zu"
+                },
+                "suggest": {
+                    "e1": "Dude, bist du nen Admin?!",
+                    "e2": "Dude, du hast den Vorschlags Kanal vergessen!",
+                    "e3": "das ist kein Channel!",
+                    "m1": "Vorschlagkanal gesetzt!",
+                    "m2": "Eingestellt zu"
+                },
+                "mute": {
+                    "e1": "Dude, bist du nen Admin?!",
+                    "e2": "Dude, du hast den Vorschlags Kanal vergessen!",
+                    "e3": "das ist kein Rang!",
+                    "m1": "Muterang gesetzt!",
+                    "m2": "Eingestellt zu",
+                    "created": "Muterolle Erstellt!"
+                }
+            },
+            "music": {
+                "play": {
+                    "undefined": "You forgot to tell me what song you want to hear!",
+                    "add": "Song added to queue",
+                    "channel": "You must be in the same channel as I'm, to use this command",
+                    "nochannel": "You must be in Voice Channel, to use this command!",
+                    "finish": "Playback finished",
+                    "play": "Playing",
+                    "err": "Error: This video is unavailable."
+                },
+                "join": {
+                    "join": "Succesfully joined the channel",
+                    "already": "I'm already in Voice Channel!",
+                    "full": "This Voice Channel is full!",
+                    "nochannel": "You must be in Voice Channel, to use this command!"
+                },
+                "leave": {
+                    "left": "Succesfully left the channel",
+                    "wrongchannel": "I'm not in this Voice Channel!",
+                    "already": "I'm in no Voice Channel, so I can't leave it!",
+                    "nochannel": "You must be in Voice Channel, to use this command!"
+                },
+                "pause": {
+                    "toggle": "Playback Paused!",
+                    "nochannel": "You must be in Voice Channel, to use this command!",
+                    "nomusic": "There is no playing music to pause, on this server!",
+                    "wrongchannel": "I'm not in this Voice Channel!"
+                },
+                "resume": {
+                    "toggle": "Playback Resumed!",
+                    "nochannel": "You must be in Voice Channel, to use this command!",
+                    "nomusic": "There is no paused music to resume, on this server!",
+                    "wrongchannel": "I'm not in this Voice Channel!"
+                },
+                "queue": "Queue for this server:",
+                "skip": {
+                    "wrongchannel": "You must be in the same voice channel as I'm, to use this command!",
+                    "empty": "There is no song in queue to skip",
+                    "nochannel": "You must be in voice channel, to use this command!",
+                    "nosong": "There is no song in queue to skip!",
+                    "skip": "Skipped",
+                    "by": "Skipped by"
+                }
+            }
+    },
+
+    "french":{
+        "credits": {
+            "name": "Crédits:",
+            "dev": "Développeur : ",
+            "help": "Bras droits : ",
+            "translate": "Traducteur : ",
+            "creator": "Fait par : Hammer1279"
+        },
+        "stats": {
+            "h": "heures",
+            "min": "minutes et",
+            "sec": "secondes",
+            "creator": "fait par: Hammer1279",
+            "Us": "Utilisateurs:",
+            "S": "Serveurs:",
+            "C": "Salons:",
+            "P": "Ping:",
+            "L": "Library:",
+            "U": "Temps de marche:"
+        },
+        "welcome": {
+            "message": ["Hey", ", bienvenue!"]
+        },
+        "bye": {
+            "message": ["Le membre", "vient de nous quitter!"]
+        },
+        "help": {
+            "err": {
+                "mod": "Modérateur ? Non !",
+                "admin": "Il semblerait que tu n'aies pas les permissions d'admin..."
+            },
+            "main": {
+                "rb": "Demandé par:",
+                "page": "Toutes les catégories disponibles:",
+                "howpage": "Comment accéder aux catégories:",
+                "howtopage": "Syntaxe:",
+                "command": "Commandes:",
+                "creator": "fait par: Hammer1279"
+            },
+            "moderator": {
+                "purge": "supprime des messages",
+                "tempmute": "Mute un membre pendant une durée définie",
+                "mute": "Mute un membre pour une durée permanente",
+                "unmute": "Enlève le mute à un membre",
+                "kick":"Expulse un membre du serveur",
+                "ban": "Bannis un membre du serveur"
+            },
+            "info": {
+                "help": "Ouvre la fenêtre d'aide",
+                "credits": "Affiche qui a fait Nova",
+                "version": "shows the current version of Nova",
+                "rank": "Affiche ton niveau ou celui d'un autre",
+                "stats": "Statistiques du bot",
+                "ping": "Dis si le bot est en vie",
+                "pong": "Affiche la latence du bot",
+                "botinfo": "Affiche des infos sur le bot",
+                "serverinfo": "Affiche des infos sur le serveur"
+            },
+            "utility": {
+                "prefix": "change le préfixe de Nova",
+                "rankcolor": "Change la couleur de ta carte de niveau",
+                "bug": "Signale un bug aux développeurs",
+                "lang": "Change le language de Nova",
+                "muterole": "sets a muterole",
+                "setsuggest": "Définis le salon où seront postées toutes les suggestions pour voter",
+                "setwelcome": "Définis le salon où Nova saluera les nouveaux membres",
+                "spacer": "Pour organiser un salon",
+                "suggest": "Envoie une suggestion pour Nova aux développeurs",
+                "news": "Définit le salon où seront envoyées les nouveautés du bot."
+            },
+            "misc": {
+                "dm": "Envoie un message privé à un membre",
+                "invite": "Envoie le lien pour inviter Nova dans ton serveur",
+                "say": "Laisse le bot parler"
+            },
+            "fun": {
+                "meme": "Envoie des memes"
+            },
+            "music": {
+                "join": "Rejoins le salon de celui qui a entré la commande.",
+                "leave": "Quitte le salon vocal.",
+                "play": "Joue la vidéo YouTube demandée",
+                "queue": "Montre la queue des musiques pour ce serveur",
+                "skip": "Passe la musique en cours",
+                "pause": "Met la pause",
+                "resume": "Reprend la musique mise en pause."
+            }
+            },
+            "suggest": {
+                "e1": "T'as perdu ta suggestion en chemin!",
+                "e2": "Mauvaise syntaxe! Essaie ça:",
+                "mb": "Fait par Hammer1279",
+                "sb": "suggestion de:",
+                "server" : "Serveur:",
+                "question": "Tu veux vraiment envoyer ça?",
+                "yes": ["y", "o", "oui"],
+                "no": ["n","no","non", "nope"],
+                "send": "Suggestion envoyée!",
+                "cancel": "Annulé!",
+                "again": "Tu dois répondre par oui ou non, réessaie !"
+           },
+           "bug": {
+            "e1": "Tu dois ajouter le bug que tu veux signaler !",
+            "e2": "Syntaxe incorrecte ! Essaie plutôt comme ça :",
+            "rb": "Reported by:",
+            "server": "Server:",
+            "send": "Ton bug a été signalé aux développeurs, pour plus de renseignements contacter : **hammertechnik@gmail.com**"
+        },
+        "set": {
+            "welcome": {
+                "e1": "Mec, t'es pas un admin !",
+                "e2": "T'as oublié de préciser le salon !",
+                "e3": "Ce n'est pas un salon valide.",
+                "m1": "Salon de bienvenue paramétré !",
+                "m2": "Salon assigné :"
+            },
+            "suggest": {
+                "e1": "Mec, t'es pas un admin !",
+                "e2": "T'as oublié de préciser le salon où vont les suggestions !",
+                "e3": "Ce n'est pas un salon valide.",
+                "m1": "Salon des suggestions paramétré !",
+                "m2": "Assigné à :"
+            },
+            "mute": {
+                "e1": "Mec, t'es pas un admin !",
+                "e2": "T'as oublié le rôle à assigner !",
+                "e3": "Euh, c'est pas un rôle valide.",
+                "m1": "Rôle muet défini !",
+                "m2": "Assigné à :",
+                "created": "Rôle muet créé !"
+              }
+               
+        }
+
+    },
+    
+    "czech":{
+        "credits": {
+            "name": "Zásluhy:",
+            "dev": "Vývojář:",
+            "help": "Pomocné ruce:",
+            "translate": "Překladatelé:",
+            "creator": "vytvořen uživatelem Hammer1279"
+        },
+        "stats": {
+            "h": "hodiny",
+            "min": "minuty a",
+            "sec": "vteřiny",
+            "creator": "vytvořeno uživatelem Hammer1279",
+            "Us": "Uživatelů:",
+            "S": "Serverů:",
+            "C": "Kanálů:",
+            "P": "Odezva:",
+            "L": "Knihovna:",
+            "U": "Čas chodu:"
+        },
+        "welcome": {
+            "message": ["Hej", ", vítej!"]
+        },
+        "bye": {
+            "message": ["Člen", "nás právě opustil!"]
+        },
+        "help": {
+            "err": {
+                "mod": "moderátor? Ne!",
+                "admin": "nevypadá to, že máš adminská práva..."
+            },
+            "main": {
+                "rb": "Vyžádáno:",
+                "page": "Všechny dostupné Kategorie:",
+                "howpage": "Jak přistupovat ke kategoriím:",
+                "howtopage": "Syntaxe:",
+                "command": "Příkazy:",
+                "creator": "vytvořen uživatelem Hammer1279"
+            },
+            "moderator": {
+                "purge": "smazat zprávy",
+                "tempmute": "ztlumit uživatele na zadanou dobu",
+                "mute": "ztlumí uživatele",
+                "unmute": "odtlumí uživatele",
+                "kick":"vyhodí uživatele ze serveru",
+                "ban": "zakáže uživatele na serveru"
+            },
+            "info": {
+                "help": "otevře okno nápovědy",
+                "credits": "ukáže, kdo vytvořil Kappu ",
+                "version": "ukáže aktuální verzi a seznam změn",
+                "rank": "ukáže tvoji hodnost, nebo někoho jiného",
+                "stats": "statistiky bota",
+                "ping": "zjistí, zda je bot naživu",
+                "pong": "vrátí dobu odezvy bota",
+                "botinfo": "ukáže informace o botovi",
+                "serverinfo": "ukáže informace o serveru"
+            },
+            "utility": {
+                "prefix": "změní Kappův prefix",
+                "rankcolor": "změní barvu hodnostní karty",
+                "bug": "nahlásí chybu vývojářům",
+                "lang": "změní Kappův jazyk",
+                "muterole": "nastaví ztlumenou roli",
+                "setsuggest": "kastaví kanál pro návrhy",
+                "setwelcome": "nastaví kanál, kde Nova vítá nové členy",
+                "spacer": "když chceš organizovat kanál",
+                "suggest": "pošle vývojářům tvůj návrh ohledně Kappy",
+                "news": "nastaví botův kanál pro novinky"
+            },
+            "misc": {
+                "dm": "pošle přímou zprávu členovi",
+                "invite": "pošle odkaz, kterým můžeš získat Kappu i na svůj server",
+                "say": "Nechá Bota promluvit"            
+            },
+            "fun": {
+                "meme": "pošle nějaký meme"
+            },
+            "music": {
+                "join" : "Připojí se do hlasové kanálu velitele",
+                "leave" : "Opustí hlasový kanál velitele",
+                "play" : "Spustí YouTube video zadané jako argument",
+                "queue" : "Ukáže frontu písní pro tento server",
+                "skip" : "Přeskočí aktuálně hranou píseň",
+                "pause" : "Pozastaví hrající hudbu",
+                "resume": "Obnoví pozastavenou hudbu"
+            }
+        },
+        "suggest": {
+            "e1": "vždyť jsi tzapomněl na svůj návrh!",
+            "e2": "použil jsi špatnou syntaxi! Zkust to takto:",
+            "mb": "vytvořen uživatelem Hammer1279",
+            "sb": "Návrh od:",
+            "server" : "Server:",
+            "question": "Opravdu to chceš poslat?",
+            "yes": ["y", "ano", "jep"],
+            "no": ["n","ne","zrušit", "nope"],
+            "send": "Návrh poslán!",
+            "cancel": "Zrušeno!"
+        },
+        "bug": {
+            "e1": "Musíš přidat chybu, kterou chceš nahlásit!",
+            "e2": "použil jsi špatnou syntaxi! Zkus to takto:",
+            "rb": "Nahlášeno:",
+            "server": "Server:",
+            "send": "tvá Chyba byla nahlášena Vývojářům, pro další otázky je kontakuj zde: **hammertechnik@gmail.com**"
+        },
+        "set": {
+            "welcome": {
+                "e1": "Kámo, nejsi admin!",
+                "e2": "Kámo, zapomněl jsi nastavit vítací kánál!!",
+                "e3": "tohle není validní kanál!",
+                "m1": "Vítací kanál nastaven!",
+                "m2": "Nastaven na"
+            },
+            "suggest": {
+                "e1": "Kámo, nejsi admin!",
+                "e2": "Kámo, zapomněl jsi nastavit kanál na návrhy!",
+                "e3": "tohle není validní kanál!",
+                "m1": "Kanál na návrhy nastaven!",
+                "m2": "Nastaven na"
+            },
+            "mute": {
+                "e1": "Kámo, nejsi admin!",
+                "e2": "Kámo, zapomněl jsi nastavit ztlumenou roli!",
+                "e3": "tohle naní validí role!",
+                "m1": "Ztlumená role nastavena!",
+                "m2": "Nastavena na",
+                "created": "Ztlumená role nastavena!"
+            }
+        },
+        "music": {
+            "play": {
+                "undefined": "You forgot to tell me what song you want to hear!",
+                "add": "👍 Song added to queue!",
+                "channel": "You must be in the same channel as I'm, to use this command",
+                "nochannel": "You must be in a Voice Channel, to use this command!",
+                "finish": "Playback finished",
+                "play": "Playing",
+                "err": "Error: This video is unavailable."
+            },
+            "join": {
+                "join": "Succesfully joined the channel",
+                "already": "I'm already in Voice Channel!",
+                "full": "This Voice Channel is full!",
+                "nochannel": "You must be in a Voice Channel, to use this command!"
+            },
+            "leave": {
+                "left": "Succesfully left the channel",
+                "wrongchannel": "I'm not in this Voice Channel!",
+                "already": "I'm in no a Voice Channel, so I can't leave it!",
+                "nochannel": "You must be in a Voice Channel, to use this command!"
+            },
+            "pause": {
+                "toggle": "Playback Paused!",
+                "nochannel": "You must be in Voice Channel, to use this command!",
+                "nomusic": "There is no playing music to pause, on this server!",
+                "wrongchannel": "I'm not in this Voice Channel!"
+            },
+            "resume": {
+                "toggle": "Playback Resumed!",
+                "nochannel": "You must be in a Voice Channel, to use this command!",
+                "nomusic": "There is no paused music to resume, on this server!",
+                "wrongchannel": "I'm not in this Voice Channel!"
+            },
+            "queue": "Queue for this server:",
+            "skip": {
+                "wrongchannel": "You must be in the same voice channel as I'm, to use this command!",
+                "empty": "There is no song in queue to skip",
+                "nochannel": "You must be in a voice channel, to use this command!",
+                "nosong": "There is no song in queue to skip!",
+                "skip": "Skipped",
+                "by": "Skipped by"
+            }
+        }
+    },
+    "russian":{
+        "credits": {
+            "name": "титры:",
+            "dev": "разработчик:",
+            "help": "Рука помощи:",
+            "translate": "Переводчик:",
+            "creator": "сделано в: Hammer1279"
+        },
+        "stats": {
+            "h": "часов",
+            "min": "минут и",
+            "sec": "секунд",
+            "creator": "сделано в: Hammer1279",
+            "Us": "пользователи:",
+            "S": "серверы:",
+            "C": "каналы:",
+            "P": "пинг:",
+            "L": "библиотека:",
+            "U": "Провел:"
+        },
+        "welcome": {
+            "message": ["Привет", ", добро пожаловать!"]
+        },
+        "bye": {
+            "message": ["член", "только что оставил нас!"]
+        },
+        "help": {
+            "err": {
+                "mod": "Модератор? Нет!",
+                "admin": "не похоже, что у вас есть права администратора"
+            },
+        "main": {
+            "rb": "запрошенный:",
+            "page": "Все доступные категории:",
+            "howpage": "Как получить доступ к категориям:",
+            "howtopage": "Синтаксис:",
+            "command": "Commands:",
+            "creator": "сделано в: Hammer1279"
+        },
+        "moderator": {
+            "purge": "удалить сообщения",
+            "tempmute": "приглушает участника на определенное количество времени",
+            "mute": "постоянно заглушает члена",
+            "unmute": "включает звук",
+            "kick":"пинает участника с сервера",
+            "ban": "забанить участника с сервера"
+        },
+        "info": {
+            "help": "открывает окно справки",
+            "credits": "показать, кто сделал Nova",
+            "version": "показывает текущую версию и список изменений",
+            "rank": "показывает звание вас или кого-то еще",
+            "stats": "статистика ботов",
+            "ping": "позволяет узнать, жив ли бот",
+            "pong": "получить время ожидания бота",
+            "botinfo": "показывает информацию о боте",
+            "serverinfo": "получить информацию о сервере"
+        },
+        "utility": {
+            "prefix": "изменить префикс Nova",
+            "rankcolor": "меняет цвет карты ранка",
+            "bug": "сообщает об ошибке разработчикам",
+            "lang": "меняет язык каппы",
+            "muterole": "устанавливает muterole",
+            "setsuggest": "устанавливает канал для предложений",
+            "setwelcome": "устанавливает канал, где Каппа приветствует новых участников",
+            "spacer": "когда ты хочешь организовать канал",
+            "suggest": "дать Dev предложение о каппа",
+            "news": "устанавливает канал новостей бота"
+                },
+        "misc": {
+            "dm": "отправляет прямое сообщение члену.",
+            "invite": "Отправляет ссылку, чтобы получить Nova также на ваш сервер",
+            "say": "Пусть бот говорит"
+        },
+        "fun": {
+            "meme": "отправляет некоторые промозглые мемы"
+        },
+        "music": {
+            "join": "Присоединяется голосовой канал командира",
+            "leave": "Уходит командир голосового канала ",
+            "play": "Воспроизведение видео с YouTube в качестве аргумента",
+            "queue": "Показывает очередь песен для этого сервера",
+            "skip": "Пропускает фактически воспроизводящую песню",
+            "pause": "Пауза текущей воспроизводимой песни",
+            "resume": "Возобновляет приостановленную музыку на этом сервере"
+        }
+        },
+        "suggest": {
+            "e1": "вы забыли ваше предложение по пути!",
+            "e2": "Ваш синтаксис неверен! Используйте это так:",
+            "mb": "сделано в: Hammer1279",
+            "sb": "Предложение от:",
+            "server" : "сервер:",
+            "question": "Вы действительно хотите отправить это?",
+            "yes": ["y", "yes", "yep", "да"],
+            "no": ["n","no","cancel", "nope", "нет"],
+            "send": "Предложение отправлено!",
+            "cancel": "отменен!",
+            "again": "Вы должны ответить либо да, либо нет, пожалуйста, попробуйте еще раз!"
+        },
+        "bug": {
+            "e1": "Вам нужно добавить ошибку, о которой вы хотите сообщить!",
+            "e2": "Ваш синтаксис неверен! Используйте это так:",
+            "rb": "сообщает:",
+            "server": "сервер:",
+            "send": "Ваша ошибка была сообщена разработчикам, для дальнейших вопросов свяжитесь с ними здесь: **hammertechnik@gmail.com**"
+        },
+        "set": {
+            "welcome": {
+                "e1": "Чувак, ты не админ!",
+                "e2": "Чувак, ты забыл желанный канал для установки!",
+                "e3": "это не действительный канал!",
+                "m1": "Приветственный набор каналов!",
+                "m2": "Установлен в"
+            },
+            "suggest": {
+                "e1": "Чувак, ты не админ!",
+                "e2": "Чувак, ты забыл установить канал предложения!",
+                "e3": "это не действительный канал!",
+                "m1": "Предложить канал!",
+                "m2": "установлен в"
+            },
+            "mute": {
+                "e1": "Чувак, ты не админ!",
+                "e2": "Чувак, ты забыл мутерол, чтобы установить!",
+                "e3": "это недопустимая роль!",
+                "m1": "набор мутерол!",
+                "m2": "установлен в",
+                "created": "мутерол создан!"
+            }
+        },
+        "music": {
+            "play": {
+                "undefined": "Вы забыли сказать мне, какую песню вы хотите услышать!",
+                "add": "Песня добавлена ​​в очередь",
+                "channel": "Вы должны быть на том же канале, что и я, чтобы использовать эту команду",
+                "nochannel": "Вы должны быть в Голосовом канале, чтобы использовать эту команду!",
+                "finish": "Воспроизведение завершено",
+                "play": "Воспроизведение",
+                "err": "Ошибка: это видео недоступно."
+            },
+            "join": {
+                "join": "Успешно присоединился к каналу",
+                "already": "Я уже в Голосовом Канале!",
+                "full": "Этот голосовой канал заполнен!",
+                "nochannel": "Вы должны быть в Голосовом канале, чтобы использовать эту команду!"
+            },
+            "leave": {
+                "left": "Успешно покинул канал",
+                "wrongchannel": "Я не в этом Голосовом Канале!",
+                "already": "У меня нет Голосового Канала, поэтому я не могу покинуть его!",
+                "nochannel": "Вы должны быть в Голосовом канале, чтобы использовать эту команду!"
+            },
+            "pause": {
+                "toggle": "Воспроизведение приостановлено!",
+                "nochannel": "Вы должны быть в Голосовом канале, чтобы использовать эту команду!",
+                "nomusic": "На этом сервере нет остановки воспроизведения музыки!",
+                "wrongchannel": "Я не в этом Голосовом Канале!"
+            },
+            "resume": {
+                "toggle": "Воспроизведение возобновлено!",
+                "nochannel": "Вы должны быть в Голосовом канале, чтобы использовать эту команду!",
+                "nomusic": "На этом сервере нет приостановленной музыки для возобновления!",
+                "wrongchannel": "Я не в этом Голосовом Канале!"
+            },
+            "queue": "Очередь для этого сервера:",
+            "skip": {
+                "wrongchannel": "Вы должны быть в том же голосовом канале, что и я, чтобы использовать эту команду!",
+                "empty": "Нет песни в очереди, чтобы пропустить",
+                "nochannel": "Вы должны быть в голосовом канале, чтобы использовать эту команду!",
+                "nosong": "Нет песни в очереди, чтобы пропустить!",
+                "skip": "Пропущенные",
+                "by": "Пропущено"
+            }
+        }
+    }
+}

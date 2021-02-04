@@ -1,0 +1,87 @@
+{
+    "1": {
+        "name": "Nova (Default)",
+        "owner": {
+            "name": "HammerTechnik",
+            "id": null
+        },
+        "public": true,
+        "alternateindex": {
+            "enabled": false,
+            "path": null
+        },
+        "path": {
+            "commands": "./commands",
+            "message": null,
+            "events": null
+        }
+    },
+    "2": {
+        "name": "Thundero",
+        "owner": {
+            "name": "TheThunderoNetwork",
+            "id": null
+        },
+        "public": true,
+        "alternateindex": {
+            "enabled": false,
+            "path": null
+        },
+        "path": {
+            "commands": "./modes/Thundero/commands",
+            "message": "./modes/Thundero/events/message.js",
+            "events": "./modes/Thundero/events"
+        }
+    },
+    "3": {
+        "name": "Mulch&Baquet",
+        "owner": {
+            "name": "TheFireDragon",
+            "id": "317279640354029569"
+        },
+        "public": false,
+        "alternateindex": {
+            "enabled": true,
+            "path": "./modes/Mulch/index.js"
+        },
+        "path": {
+            "commands":"./modes/Mulch/commands",
+            "message": "./modes/Mulch/events/message.js",
+            "events": "./modes/Mulch/events"
+        }
+    },
+    "4": {
+        "name": "[DTLS] Dauntless",
+        "owner": {
+            "name": "Eld'uukhar",
+            "id": "548516821872017418"
+        },
+        "public": false,
+        "alternateindex": {
+            "enabled": false,
+            "path": null
+        },
+        "path": {
+            "commands": "./modes/Dauntless/commands",
+            "message": "./modes/Dauntless/events/message.js",
+            "events": "./modes/Dauntless/events"
+        }
+    },
+    "5": {
+        "name": "NovaBeta",
+        "owner": {
+            "name": "Hammer1279",
+            "id": "437999876828037158"
+        },
+        "public": false,
+        "alternateindex": {
+            "enabled": true,
+            "path": "./modes/NovaBeta/index.js"
+        },
+        "path": {
+            "commands":"./modes/NovaBeta/commands",
+            "message": "./modes/NovaBeta/events/message.js",
+            "events": "./modes/NovaBeta/events"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "htbot",
+  "version": "3.3.6",
+  "vname": "Performance and Trashremoval Fix",
+  "description": "Nova is a great Chat-/Moderator Bot!",
+  "main": "KappaBot.js",
+  "dependencies": {
+    "better-sqlite-pool": "^0.2.2",
+    "better-sqlite3": "^5.4.3",
+    "btoa": "^1.2.1",
+    "chalk": "^2.4.2",
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.1.2",
+    "exact-math": "^2.0.0",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^2.5.0",
+    "fresh": "^0.5.2",
+    "integer": "^2.1.0",
+    "m3u8stream": "^0.6.3",
+    "ms": "^2.1.1",
+    "mysql": "^2.17.1",
+    "mz": "^2.7.0",
+    "node-fetch": "^2.6.0",
+    "node-pre-gyp": "^0.12.0",
+    "node.js": "^0.0.0",
+    "opus": "^0.0.0",
+    "opusscript": "0.0.6",
+    "parse-time": "^0.1.4",
+    "prism": "^4.1.2",
+    "readline": "^1.3.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.12.2",
+    "sqlite3": "^4.1.1",
+    "superagent": "^5.0.2",
+    "winston": "^3.2.0",
+    "youtube-search": "^1.1.4",
+    "ytdl-core": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node Nova.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hammertechnik/"
+  },
+  "keywords": [
+    "HammerTechnik",
+    "Moderation",
+    "Chat",
+    "Fun"
+  ],
+  "author": "HammerTechnik",
+  "license": "GPL-3.0-or-later"
+}

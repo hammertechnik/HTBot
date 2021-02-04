@@ -1,0 +1,30 @@
+module.exports.run = async (client, message, args) => {
+    const Discord = require('discord.js')
+
+    let shield = client.emojis.find(emoji => emoji.name === 'bouclierdHarold')
+    let kappa = client.emojis.find(emoji => emoji.name === 'kappa')
+    let embed = new Discord.RichEmbed()
+    .setColor('#25c059')
+    //.setImage('https://cdn.discordapp.com/attachments/547529560175017997/547765249126825995/20190219_205817.jpg')
+    .setThumbnail('https://cdn.discordapp.com/attachments/547529560175017997/547765249126825995/20190219_205817.jpg')
+    .setTitle("Mulch & Baquet:")
+    //.addBlankField()
+    .addField("Commandes:", `?aide - ouvre cette fenêtre\n?ping - Obtiens un ping-pong\n?inviter - Donne le lien d'invitation\n?wiki - Donne le lien du wiki de Dragons\n?suggérer - Suggérez quelque chose`)
+    //.addBlankField()
+    .addField("Fun:", `?dire - Laisse le bot parler\n?mp - Envoyer un mp à une personne. N'EN ABUSEZ PAS !`)
+    //.addBlankField()
+    .addField("Info:", `?générique - Obtenez des crédits pour les assistants du bot`)
+    //.addBlankField()
+    .addField("Modérateur:", `?bienvenue [@USER] - Souhaite la bienvenue... la mention est facultative\n?mute [@USER] [TIME] - Mute un utilisateur`)
+    //.addBlankField()
+    .addField("Chef:", `?purge - Efface les derniers messages`)
+    .addField("WIP:", `?support - call for Support\n?concours - DEV TEST!`)
+    //.setTimestamp()
+    .setFooter(`Mulch & Baquet fait par Hammer1279 - Demandé par: ${message.author.tag}`, 'https://cdn.discordapp.com/attachments/547529560175017997/547765249126825995/20190219_205817.jpg')
+    message.channel.send({embed})
+    //message.author.send({embed})
+    message.delete()
+    //.then(async msg => {
+    //await msg.react(emoji);
+   // })
+}
