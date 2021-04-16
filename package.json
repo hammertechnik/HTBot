@@ -10,7 +10,7 @@
     "btoa": "^1.2.1",
     "chalk": "^2.4.2",
     "discord.io": "^2.5.3",
-    "discord.js": "^11.5.1",
+    "discord.js": "11.5.1",
     "enmap": "^5.1.2",
     "exact-math": "^2.0.0",
     "express": "^4.17.1",
